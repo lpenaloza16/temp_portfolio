@@ -8,33 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            My sincere goal is to use my skills and knowledge to create
-            educational tools and resources that make a positive impact. My
-            focus is on designing products that are intuitive and easy to use,
-            while also promoting inclusivity and accessibility. I am dedicated
-            to continuously improving my skills and knowledge through ongoing
-            learning and professional development in order to create the most
-            effective solutions for my users.
+            Dedicated to leveraging skills and knowledge to develop educational
+            tools and resources that positively impact users. Emphasis is placed
+            on creating intuitive, accessible, and inclusive products. Committed
+            to ongoing learning and professional development for delivering
+            effective solutions.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Enjoy engaging in various activities outside of work.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />
+              <ImPointRight /> {/* Activity 1 */}
             </li>
             <li className="about-activity">
-              <ImPointRight />
+              <ImPointRight /> {/* Activity 2 */}
             </li>
             <li className="about-activity">
-              <ImPointRight />
+              <ImPointRight /> {/* Activity 3 */}
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build things that make a difference!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Leo Peña</footer>
         </blockquote>
       </Card.Body>
     </Card>
